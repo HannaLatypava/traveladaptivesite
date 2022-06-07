@@ -1,0 +1,237 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 auto;
+}
+
+.logo {
+    margin-left: 70px;
+}
+
+.header {
+    background-color: #f05496;
+    height: 500px;
+    padding-top: 70px;
+    padding-bottom: 125px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.big {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.offer {
+    margin-top: 140px;
+}
+
+.btn {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    background: #ffffff;
+    color: black;
+    width: 220px;
+    border-radius: 0px;
+    display: block;
+    padding: 15px 10px;
+}
+
+.intro {
+    width: 289px;
+    margin-bottom: 45px;
+}
+
+.second {
+    color: black;
+    font-size: 30px;
+}
+
+.learn {
+    text-align: center;
+    padding-top: 105px;
+    padding-bottom: 125px;
+}
+
+.dreams {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.time {
+    width: 45px;
+    height: 45px;
+}
+
+.dream {
+    color: black;
+    font-weight: bold;
+}
+
+.blockdream {
+    color: black;
+    width: 289px;
+}
+
+.mail {
+    text-align: center;
+    padding-top: 105px;
+    padding-bottom: 100px;
+    background: #e9dee3;
+}
+
+input {
+    width: 345px;
+    height: 50px;
+    border: 1px solid #7f7b94;
+    padding-left: 25px;
+    display: block;
+    margin: 1em auto;
+}
+
+.btn-down {
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    background: #ffffff;
+    color: black;
+    width: 345px;
+    border-radius: 0px;
+    display: block;
+    padding: 15px 10px;
+}
+
+.footer {
+    background-color: #867bc0;
+    padding: 35px 0;
+}
+
+.footer-text {
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/*Responsive*/
+
+
+/* 992px - 1200px */
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+}
+
+
+/* 768px - 992px */
+
+@media screen and (max-width: 992px) {
+    .header {
+        height: auto;
+    }
+    .container {
+        width: 720px;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .logo {
+        margin-left: auto;
+    }
+    .offer {
+        width: 100%;
+    }
+    .intro {
+        width: auto;
+    }
+    .desktop {
+        display: block;
+        width: 540px;
+        margin: 72px auto 0;
+    }
+    .dreams {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .dream-element {
+        margin-top: 25px;
+    }
+    .dream {
+        width: auto;
+    }
+    .blockdream {
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+
+
+/* 576px - 768px */
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+}
+
+
+/* 320px - 576px */
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+    .desktop {
+        height: 290px;
+        width: 270px;
+    }
+    .btn-down {
+        width: 250px;
+    }
+    .input {
+        padding-left: 15px;
+        width: 250px;
+    }
+}
